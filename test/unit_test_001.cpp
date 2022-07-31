@@ -22,7 +22,7 @@
 
 #include <ArduinoUnitTests.h>
 
-#include "AD524X.h"
+#include "AD5245.h"
 
 
 unittest_setup()
