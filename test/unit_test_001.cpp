@@ -27,7 +27,7 @@
 
 unittest_setup()
 {
-  fprintf("\nAD5245_LIB_VERSION %s\n", (char*) AD5245_LIB_VERSION);
+  fprintf(stderr, "\nAD5245_LIB_VERSION %s\n", (char*) AD5245_LIB_VERSION);
 }
 
 
