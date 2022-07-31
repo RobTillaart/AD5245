@@ -17,11 +17,11 @@ The library is experimental and not tested yet.
 
 The AD5245 is a digital potentiometer.
 
-These digital potentiometers come in 10K, 100K and 1M
+This digital potentiometer comes in 10K, 100K and 1M
 and can be set in 256 steps.
 
 An important property of the device is that it defaults
-to their mid position at startup.
+to the mid position at startup.
 
 Related libraries:
 - https://github.com/RobTillaart/AD524X 
@@ -38,12 +38,10 @@ The AD5245 has one address line to configure the I2C address.
 |  45      |  0x2D     | +5V  |
 
 
-
 ## Interface
 
 The library has a number of functions which are all quite straightforward.
 One can get / set the value of the potentiometer.
-
 
 - **AD5245(uint8_t address, TwoWire \*wire = &Wire)** constructor
 - **bool begin(uint8_t sda, uint8_t scl)** ESP32 a.o initializing of Wire.
@@ -63,9 +61,6 @@ The examples show the basic working of the functions.
 
 ## Future
 
-- improve error handling.
 - sync with AD520X library
 - sync with AD524X library
-
-
 

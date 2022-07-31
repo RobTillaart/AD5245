@@ -3,13 +3,13 @@
 //    FILE: AD5245.h
 //  AUTHOR: Rob Tillaart
 // VERSION: 0.1.0
-// PURPOSE: I2C digital PotentioMeter AD5245
+// PURPOSE: Arduino library for I2C digital potentiometer AD5245.
 //    DATE: 2022-07-31
 //     URL: https://github.com/RobTillaart/AD5245
 
 
 // experimental - to be tested - use at own risk
-  
+
 #include "Arduino.h"
 #include "Wire.h"
 
@@ -42,6 +42,7 @@ public:
   // experimental - to be tested - use at own risk
   uint8_t shutDown();
 
+
 private:
   uint8_t send(const uint8_t cmd, const uint8_t value);
 
@@ -53,3 +54,4 @@ private:
 
 
 // -- END OF FILE --
+
