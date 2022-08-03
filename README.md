@@ -15,18 +15,18 @@ The library is experimental and not tested yet.
 
 ## Description
 
-The AD5245 is a digital potentiometer.
-
-This digital potentiometer comes in 10K, 100K and 1M
+The AD5245 is a digital potentiometer which comes in 10K, 100K and 1M
 and can be set in 256 steps.
 
 An important property of the device is that it defaults
 to the mid position at startup.
 
-Related libraries:
-- https://github.com/RobTillaart/AD524X 
-- https://github.com/RobTillaart/AD520X 
 
+#### Related libraries
+
+This library is based upon the AD524X library, and triggered by this issue:
+- https://github.com/RobTillaart/AD524X/issues/11
+ 
 
 ## I2C address
 
