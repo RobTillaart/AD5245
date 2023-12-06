@@ -36,15 +36,28 @@ to the mid-scale position at startup.
 One can use **AD5245_MIDPOINT** == 128 to reset to the mid-scale position.
 
 
+#### 0.3.0 Breaking change
+
+Version 0.3.0 introduced a breaking change.
+You cannot set the pins in **begin()** any more.
+This reduces the dependency of processor dependent Wire implementations.
+The user has to call **Wire.begin()** and can optionally set the Wire pins 
+before calling **begin()**.
+
+
 #### Related
 
 This library is based upon the AD524X library, and triggered by this issue:
 - https://github.com/RobTillaart/AD524X/issues/11
 
-- - https://www.analog.com/en/products/ad5245.html
-- https://github.com/RobTillaart/AD520X/
-- https://github.com/RobTillaart/AD524X/
-- https://github.com/RobTillaart/AD5245/  potentiometer
+- https://www.analog.com/en/products/ad5245.html
+- https://github.com/RobTillaart/AD520x
+- https://github.com/RobTillaart/AD524X
+- https://github.com/RobTillaart/AD5245
+- https://github.com/RobTillaart/AD5144A
+- https://github.com/RobTillaart/AD5245
+- https://github.com/RobTillaart/AD5263
+- https://github.com/RobTillaart/X9C10X
 - https://github.com/RobTillaart/AD5246/  rheostat
 
 
