@@ -7,11 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
 ## [0.3.0] - 2023-12-06
-- refactor API
+- refactor API, begin()
 - update readme.md
 
 ----
-
 
 ## [0.2.1] - 2023-08-02
 - add Wire1 support for ESP32

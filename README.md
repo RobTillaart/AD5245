@@ -83,8 +83,7 @@ The library has a number of functions which are all quite straightforward.
 One can get / set the value of the potentiometer.
 
 - **AD5245(uint8_t address, TwoWire \*wire = &Wire)** constructor
-- **bool begin(uint8_t sda, uint8_t scl)** ESP32 a.o initializing of Wire.
-- **bool begin()** for UNO.
+- **bool begin()** initializes internals. Returns true on success.
 - **bool isConnected()** See if address set in constructor is on the bus.
 - **uint8_t reset()** sets potentiometer to midpoint = 128. (startup default)
 - **uint8_t write(uint8_t value)** set to value 0 .. 255.

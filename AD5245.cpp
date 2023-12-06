@@ -1,7 +1,7 @@
 //
 //    FILE: AD5245.cpp
 //  AUTHOR: Rob Tillaart
-// VERSION: 0.2.1
+// VERSION: 0.3.0
 // PURPOSE: Arduino library for I2C digital potentiometer AD5245.
 //    DATE: 2022-07-31
 //     URL: https://github.com/RobTillaart/AD5245
